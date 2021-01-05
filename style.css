@@ -1,0 +1,58 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(68, 40, 40);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 60px 80px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.p1) {
+    background-color: rgb(231, 219, 219);
+  }
+  
+  .p1 {
+    background-color: #4CAF50;
+  }
+
+
+  .logo {
+    background-image: url("./pic.jpg");
+
+      
+
+  }
+
+  div.imge1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.imge1:hover {
+    border: 1px solid #777;
+  }
+  
+  div.imge1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
